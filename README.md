@@ -4,19 +4,18 @@ Landing statica in italiano per presentare il codice sperimentale ZDOS e quattro
 
 ## Contenuto
 
-- `site/` — artefatto statico da distribuire su GitHub Pages.
-- `.github/workflows/pages.yml` — deploy Pages su push a `main` e tramite `workflow_dispatch`.
+- `docs/` — sito statico da distribuire su GitHub Pages.
 - `SOURCES.md` — fonti e note di verifica.
-- `TODO.md` — stato di completamento e blocco di pubblicazione.
+- `TODO.md` — stato di completamento e pubblicazione.
 
-## Preview locale
+## Anteprima locale
 
 ```sh
-python3 -m http.server 3000 --bind 127.0.0.1 --directory site
+python3 -m http.server 3000 --bind 127.0.0.1 --directory docs
 ```
 
 ## GitHub Pages
 
-Il workflow pubblica `site/` e usa GitHub Actions come origine Pages. Nel repository ospitante, abilita GitHub Pages selezionando **Build and deployment → GitHub Actions**; quindi il push su `main` avvia la distribuzione. Se il repository è `high-cde.github.io`, il sito è previsto alla radice di `https://high-cde.github.io/`. Il sorgente della pagina resta in `site/` ed è autonomo, con grafica SVG locale come fallback.
+La pagina non richiede GitHub Actions. Dopo il trasferimento del sorgente, in **Settings → Pages** scegli **Deploy from a branch**, poi il branch `main` e la cartella `/docs`. Su `high-cde.github.io`, il sito sarà disponibile alla radice di `https://high-cde.github.io/` dopo la prima pubblicazione. `docs/.nojekyll` mantiene gli asset statici invariati.
 
-La pagina usa link relativi per foglio di stile, JavaScript e favicon. Le schede mostrano sia il sito pubblicato sia il repository sorgente di ciascun progetto. Per modificare descrizioni o riferimenti, aggiorna `site/index.html` e `SOURCES.md` mantenendo distinte le informazioni dichiarate dai fatti verificati.
+I link a CSS, JavaScript, favicon e artwork locale sono relativi. Le schede mostrano sia il sito pubblicato sia il repository sorgente di ciascun progetto. Per aggiornare descrizioni o riferimenti, modifica `docs/index.html` e `SOURCES.md`, mantenendo distinte le informazioni dichiarate dai fatti verificati.

@@ -14,6 +14,6 @@
 ## Esperienza e consegna
 
 - [x] L’esperienza è visivamente premium, responsive e accessibile: HTML semantico, contrasto adeguato, focus da tastiera, testo leggibile, link descrittivi e rispetto di `prefers-reduced-motion`.
-- [x] L’implementazione è statica e compatibile con GitHub Pages; include metadati SEO/social essenziali, un workflow Actions e istruzioni di manutenzione.
+- [x] L’implementazione è statica e compatibile con GitHub Pages da branch `main /docs`; include metadati SEO/social essenziali, artwork locale e istruzioni di configurazione.
 - [x] L’anteprima risponde; manifesto route, link interni, asset relativi, JavaScript e formattazione sono stati verificati.
-- [ ] Pubblicare il sito su un repository Pages autorizzato e confermare l’URL pubblico. L’account autenticato non trova il repository radice `high-cde.github.io`; la pubblicazione richiede destinazione e permesso di scrittura adeguati.
+- [ ] Completare il trasferimento del sorgente e abilitare **Settings → Pages → Deploy from a branch → main /docs**. Confermare quindi l’URL pubblico.
