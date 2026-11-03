@@ -1,0 +1,9 @@
+# Fonti pubbliche consultate
+
+Verifica delle pagine: 3 novembre 2026. Le descrizioni della landing sono prudenti e rinviano sempre alle fonti originali.
+
+- **Zdos-K.I.R.A.** — https://high-cde.github.io/Zdos-K.I.R.A/ — sorgente: https://github.com/high-cde/Zdos-K.I.R.A — la pagina descrive K.I.R.A. come copilota AI per esplorare idee, scrivere e risolvere problemi. Durante l’estrazione del 3 novembre 2026 mostrava «API non raggiungibile». La scheda riporta questo stato come osservazione puntuale, non come attestazione permanente.
+- **zclipper** — https://high-cde.github.io/zclipper/ — sorgente: https://github.com/high-cde/zclipper — si presenta come studio di strategia digitale, design, AI e sviluppo. La sezione portfolio specifica che i visual sono concept e non incarichi o risultati commerciali documentati.
+- **VelvetHub** — https://high-cde.github.io/VelvetHub/ — sorgente: https://github.com/high-cde/VelvetHub — il sito definisce il club come esperienza 18+. Descrive DSN Credits come punti promozionali interni, non denaro né promessa di rendimento; dichiara inoltre cautele di consenso e moderazione. La landing non verifica l’effettiva erogazione delle funzionalità.
+- **Zcomm** — https://high-cde.github.io/Zcomm/ — sorgente: https://github.com/high-cde/Zcomm — la pagina dichiara un progetto di telemetria bioacustica per la salvaguardia dei rapaci nell’Oltrepò Pavese. Stato sensori, identificazioni e streaming sono autodichiarati dal sito e non verificati indipendentemente dalla landing.
+- **Repository ZLang** — https://github.com/high-cde/Zlang — usato per descrivere lo stato del codice cryptocurrency. La branch reference realizzata nella sessione è sperimentale e per devnet locale; la pagina non documenta emissione, ticker, prezzo, quotazione, distribuzione o rendimento di un token. Questo silenzio è espresso come «non documentato/confermato nella pagina», non come prova dell’inesistenza di altri progetti.
